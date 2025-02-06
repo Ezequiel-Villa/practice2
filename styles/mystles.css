@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica;
+    border: 2px solid;
+    background-color: rgba(15, 146, 83, 0.216);
+}
+img{
+    max-width: 400px;
+}
+p{
+    text-justify: auto;
+    line-height: 2;
+    background-color: rgb(120, 128, 128);
+}
+h2{
+    color: rgb(33, 47, 33);
+}
+button{
+    border-bottom: 2px solid;
+    width: 90px;
+    height: 30px;
+}
+
+.header-init{
+    color: rgb(20, 28, 12);
+    background-color: rgb(106, 120, 115);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+    justify-content: space-between;
+}
+.main-container {
+    display: grid;
+    flex-direction: wrap;
+    justify-content: center;
+    margin: 20px;
+    grid-template-columns: 70% 30%;
+    grid-row-gap: 50%;
+}
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: right;
+}
+.main-container flexbox{
+    flex-direction: row;
+}
+
